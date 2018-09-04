@@ -27,6 +27,10 @@ Compiling and installing as PythonModule (python2/python3)
 
 ``` bash
 bash:~/: sudo python3.6 -m pip install git+https://github.com/m0r4k/neoscrypt_module.git  
+  
 or  
-bash:~/: git clone git+https://github.com/m0r4k/neoscrypt_module.git && cd neoscrypt_module && sudo python3.6 setup.py install
+  
+bash:~/: git clone git+https://github.com/m0r4k/neoscrypt_module.git
+bash:~/: cd neoscrypt_module
+bash:~/neoscrpyt_module/: sudo python3.6 setup.py install 
 ```
