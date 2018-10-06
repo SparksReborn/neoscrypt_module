@@ -1,0 +1,6 @@
+build/ 
+dist/ 
+neoscrypt.egg-info/
+
+*.o
+*.dll
