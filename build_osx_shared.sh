@@ -9,5 +9,5 @@ LD="gcc"
 LDFLAGS="-Wl,-s"
 
 echo "$CC $CFLAGS $DEFINES -c neoscrypt.c"
-`$CC $CFLAGS $DEFINES -fPIC -c neoscrypt.c -o neoscrypt.dynlib`
+`$CC $CFLAGS $DEFINES -fPIC -c neoscrypt.c -o neoscrypt.dylib`
 
